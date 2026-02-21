@@ -1,0 +1,85 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    box-sizing: border-box;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    font-family: 'Inter', sans-serif;
+    color: #0F172A;
+    background-color: #FFFFFF;
+    -webkit-font-smoothing: antialiased;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-primary-500 text-white font-heading font-semibold px-6 py-3 rounded-full hover:bg-primary-700 transition-all duration-200 hover:scale-[1.02] active:scale-95 shadow-md;
+  }
+  
+  .btn-secondary {
+    @apply border-2 border-primary-500 text-primary-700 font-heading font-semibold px-6 py-3 rounded-full hover:bg-primary-50 transition-all duration-200 hover:scale-[1.02] active:scale-95;
+  }
+  
+  .card-product {
+    @apply bg-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-[1.02] overflow-hidden;
+  }
+  
+  .section-padding {
+    @apply py-16 md:py-20 lg:py-24;
+  }
+
+  .section-title {
+    @apply font-heading text-3xl md:text-4xl font-bold text-neutral-900 mb-4;
+  }
+  
+  .section-subtitle {
+    @apply text-gray-600 text-base md:text-lg max-w-2xl mx-auto;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #F8FAFC;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #17A36B;
+  border-radius: 3px;
+}
+
+/* Blob background animation delay utilities */
+.animation-delay-2000 {
+  animation-delay: 2s;
+}
+
+.animation-delay-4000 {
+  animation-delay: 4s;
+}
+
+/* Focus styles for accessibility */
+*:focus-visible {
+  outline: 2px solid #17A36B;
+  outline-offset: 2px;
+}
+
+/* Star rating */
+.star-rating {
+  color: #F6C445;
+}

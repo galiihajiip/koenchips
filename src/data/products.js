@@ -1,0 +1,218 @@
+export const products = [
+  {
+    id: 1,
+    name: 'KOENCHIPS Chocolate Bliss',
+    flavor: 'Chocolate',
+    weight: '70g',
+    price: 19000,
+    shortDesc: 'Manis cokelat lembut, comforting, cocok saat butuh mood booster.',
+    longDesc:
+      'KOENCHIPS Chocolate Bliss menghadirkan perpaduan sempurna antara renyahnya keripik sukun dan sensasi cokelat lembut yang tidak terlalu manis. Dibuat dari sukun pilihan dengan pemrosesan minim minyak, camilan ini cocok untuk semua kalangan — dari mahasiswa, pekerja, hingga gym-goers yang ingin tetap sehat tanpa mengorbankan rasa.',
+    tags: ['Rendah Lemak', 'Premium', 'Best Seller'],
+    rating: 4.8,
+    reviews: 132,
+    stock: 50,
+    image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=400&fit=crop&auto=format',
+    category: 'single',
+  },
+  {
+    id: 2,
+    name: 'KOENCHIPS Matcha Zen',
+    flavor: 'Matcha',
+    weight: '70g',
+    price: 21000,
+    shortDesc: 'Aroma matcha halus dengan manis seimbang — clean dan classy.',
+    longDesc:
+      'Rasakan pengalaman ngemil yang berbeda dengan KOENCHIPS Matcha Zen. Aroma matcha Jepang yang earthy berpadu dengan manisnya sukun, menciptakan keseimbangan rasa yang premium. Setiap gigitan menghadirkan tekstur renyah tanpa rasa berat — cocok dinikmati bersama teh atau kopi di sore hari.',
+    tags: ['Rendah Lemak', 'Premium', 'Terfavorit'],
+    rating: 4.9,
+    reviews: 98,
+    stock: 35,
+    image: 'https://images.unsplash.com/photo-1556679343-c7306c1976bc?w=400&h=400&fit=crop&auto=format',
+    category: 'single',
+  },
+  {
+    id: 3,
+    name: 'KOENCHIPS Vanilla Cloud',
+    flavor: 'Vanilla',
+    weight: '70g',
+    price: 19000,
+    shortDesc: 'Ringan, creamy, paling aman untuk semua selera.',
+    longDesc:
+      'KOENCHIPS Vanilla Cloud adalah pilihan sempurna untuk kamu yang menyukai rasa lembut dan ringan. Aroma vanilla yang creamy berpadu harmonis dengan sukun renyah, menghadirkan camilan yang tidak enek meski dimakan banyak. Cocok untuk segala suasana — kerja, belajar, atau bersantai.',
+    tags: ['Rendah Lemak', 'All Ages', 'Light'],
+    rating: 4.7,
+    reviews: 87,
+    stock: 42,
+    image: 'https://images.unsplash.com/photo-1464349095431-e9a21285b5f3?w=400&h=400&fit=crop&auto=format',
+    category: 'single',
+  },
+  {
+    id: 4,
+    name: 'Bundle Trio KOENCHIPS',
+    flavor: 'Bundle',
+    weight: 'Chocolate + Matcha + Vanilla',
+    price: 55000,
+    shortDesc: 'Belum tahu favoritmu? Coba semua.',
+    longDesc:
+      'Belum tahu mau pilih rasa apa? Dapatkan ketiganya sekarang! Bundle Trio KOENCHIPS hadir dengan satu pack masing-masing Chocolate Bliss, Matcha Zen, dan Vanilla Cloud. Harga lebih hemat dibanding beli satuan — cocok untuk gift, oleh-oleh, atau sekedar mencoba semua varian premium kami.',
+    tags: ['Hemat', 'Bundle', 'Gift Idea'],
+    rating: 4.9,
+    reviews: 74,
+    stock: 20,
+    image: 'https://images.unsplash.com/photo-1587334274328-64186a80aeee?w=400&h=400&fit=crop&auto=format',
+    category: 'bundle',
+  },
+  {
+    id: 5,
+    name: 'Family Pack Chocolate 200g',
+    flavor: 'Chocolate',
+    weight: '200g',
+    price: 45000,
+    shortDesc: 'Porsi keluarga – cokelat lembut dalam ukuran jumbo.',
+    longDesc:
+      'Nikmati KOENCHIPS Chocolate Bliss dalam ukuran keluarga! Family Pack 200g hadir untuk kamu yang tidak mau kehabisan. Kesegaran renyah cokelat lembut kini bisa dinikmati bersama keluarga atau teman dengan nilai yang jauh lebih ekonomis per gramnya.',
+    tags: ['Family Size', 'Ekonomis', 'Chocolate'],
+    rating: 4.7,
+    reviews: 56,
+    stock: 15,
+    image: 'https://images.unsplash.com/photo-1572635196237-14b3f281503f?w=400&h=400&fit=crop&auto=format',
+    category: 'bundle',
+  },
+  {
+    id: 6,
+    name: 'Sampler Pack 3x35g',
+    flavor: 'Bundle',
+    weight: '3x35g',
+    price: 29000,
+    shortDesc: 'Mini sampler 3 rasa – cocok buat coba-coba dulu!',
+    longDesc:
+      'Penasaran tapi ragu? Sampler Pack hadir sebagai solusi! Dapatkan 3 mini pack (35g) masing-masing Chocolate, Matcha, dan Vanilla dengan harga yang bersahabat. Ukuran pocket-friendly membuatnya sempurna untuk dibawa ke kampus, kantor, atau gym.',
+    tags: ['Sampler', 'Coba-coba', 'Mini'],
+    rating: 4.6,
+    reviews: 110,
+    stock: 30,
+    image: 'https://images.unsplash.com/photo-1563636619-e9143da7973b?w=400&h=400&fit=crop&auto=format',
+    category: 'bundle',
+  },
+]
+
+export const testimonials = [
+  {
+    id: 1,
+    name: 'Sari Putri',
+    role: 'Remote Worker',
+    avatar: 'https://i.pravatar.cc/80?img=32',
+    text: '"Biasanya keripik bikin enek. Ini malah pengen nambah."',
+    rating: 5,
+    flavor: 'Chocolate Bliss',
+  },
+  {
+    id: 2,
+    name: 'Dinda Rahmawati',
+    role: 'Mahasiswi',
+    avatar: 'https://i.pravatar.cc/80?img=47',
+    text: '"Matchanya surprisingly enak, ga pahit."',
+    rating: 5,
+    flavor: 'Matcha Zen',
+  },
+  {
+    id: 3,
+    name: 'Galih Hernawan',
+    role: 'Programmer',
+    avatar: 'https://i.pravatar.cc/80?img=61',
+    text: '"Temen nugas paling aman."',
+    rating: 5,
+    flavor: 'Vanilla Cloud',
+  },
+  {
+    id: 4,
+    name: 'Kevin Ardiansyah',
+    role: 'Content Creator',
+    avatar: 'https://i.pravatar.cc/80?img=15',
+    text: '"Bundle Trio-nya worth it banget buat dicoba semua varian sekaligus."',
+    rating: 5,
+    flavor: 'Bundle Trio',
+  },
+  {
+    id: 5,
+    name: 'Aulia Fitri',
+    role: 'Gym-goer',
+    avatar: 'https://i.pravatar.cc/80?img=25',
+    text: '"Akhirnya nemu snack yang tetap renyah tapi ga bikin bersalah."',
+    rating: 5,
+    flavor: 'Chocolate Bliss',
+  },
+]
+
+export const faqs = [
+  {
+    id: 1,
+    question: 'Apakah KOENCHIPS benar-benar tanpa minyak?',
+    answer:
+      'KOENCHIPS menggunakan metode pemrosesan minim minyak — bukan benar-benar zero oil, tapi kandungan lemaknya jauh lebih rendah dibanding keripik konvensional. Kami fokus pada proses yang menjaga kerenyahan dengan minyak sesedikit mungkin.',
+  },
+  {
+    id: 2,
+    question: 'Varian rasa apa saja yang tersedia?',
+    answer:
+      'Saat ini KOENCHIPS hadir dalam 3 varian utama: Chocolate Bliss (cokelat lembut), Matcha Zen (matcha earthy premium), dan Vanilla Cloud (vanilla creamy ringan). Tersedia dalam ukuran 70g, 200g, bundle, dan sampler.',
+  },
+  {
+    id: 3,
+    question: 'Bisa pesan untuk event atau sebagai souvenir?',
+    answer:
+      'Absolutely! Kami menyediakan pemesanan dalam jumlah besar untuk event, souvenir pernikahan, ulang tahun, atau corporate gift. Hubungi kami via WhatsApp untuk harga khusus pemesanan massal.',
+  },
+  {
+    id: 4,
+    question: 'Berapa lama KOENCHIPS tahan setelah dibuka?',
+    answer:
+      'Dalam kemasan tersegel, KOENCHIPS tahan hingga 3 bulan. Setelah kemasan dibuka, sebaiknya dikonsumsi dalam 3-5 hari dan simpan di tempat kering, jauh dari sinar matahari langsung untuk menjaga kerenyahannya.',
+  },
+  {
+    id: 5,
+    question: 'Pengiriman dari mana dan ke mana saja?',
+    answer:
+      'KOENCHIPS berbasis di Sidoarjo, Jawa Timur. Kami melayani pengiriman ke seluruh Indonesia melalui berbagai ekspedisi pilihan. Untuk area Sidoarjo dan sekitarnya, tersedia juga free ongkir untuk pembelian minimum tertentu.',
+  },
+]
+
+export const teamMembers = [
+  {
+    id: 1,
+    name: 'Angelita Aliyah Putri',
+    role: 'Business Lead',
+    quote: '"Membawa produk lokal jadi premium."',
+    avatar: 'https://i.pravatar.cc/200?img=49',
+    instagram: '#',
+    linkedin: '#',
+  },
+  {
+    id: 2,
+    name: 'Ananda',
+    role: 'Product & Operations',
+    quote: '"Rasa konsisten adalah segalanya."',
+    avatar: 'https://i.pravatar.cc/200?img=45',
+    instagram: '#',
+    linkedin: '#',
+  },
+  {
+    id: 3,
+    name: 'Galih Aji Pangestu',
+    role: 'Tech & Branding',
+    quote: '"Brand lokal harus tampil global."',
+    avatar: 'https://i.pravatar.cc/200?img=11',
+    instagram: '#',
+    linkedin: '#',
+  },
+  {
+    id: 4,
+    name: 'Rizky Mahendra',
+    role: 'Marketing',
+    quote: '"Cerita jujur selalu lebih dipercaya."',
+    avatar: 'https://i.pravatar.cc/200?img=15',
+    instagram: '#',
+    linkedin: '#',
+  },
+]
