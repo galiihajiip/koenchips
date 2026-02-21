@@ -22,6 +22,7 @@ export default function ProductCard({ product, onViewDetail }) {
     Chocolate: 'bg-amber-100 text-amber-700',
     Matcha: 'bg-primary-50 text-primary-700',
     Vanilla: 'bg-yellow-50 text-yellow-700',
+    Taro: 'bg-violet-100 text-violet-700',
     Bundle: 'bg-purple-50 text-purple-700',
   }
 

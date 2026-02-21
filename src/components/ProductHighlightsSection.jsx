@@ -14,7 +14,7 @@ const highlights = [
   {
     icon: Award,
     title: 'Rasa Premium yang Tidak Membosankan',
-    desc: 'Chocolate Bliss, Matcha Zen, Vanilla Cloud — ringan tapi tetap terasa.',
+    desc: 'Chocolate Bliss, Matcha Zen, Vanilla Cloud, Taro Twist - ringan tapi tetap terasa.',
     color: 'bg-primary-50',
     iconColor: 'text-primary-500',
     bgIcon: 'bg-primary-100',
@@ -61,7 +61,7 @@ export default function ProductHighlightsSection() {
           </h2>
           <p className="section-subtitle mx-auto">
             Keripik biasa sering berminyak dan bikin cepat enek. KOENCHIPS dibuat dengan
-            proses minim minyak — terasa lebih ringan, tapi tetap crunchy dan nagih.
+            proses minim minyak - terasa lebih ringan, tapi tetap crunchy dan nagih.
           </p>
         </motion.div>
 

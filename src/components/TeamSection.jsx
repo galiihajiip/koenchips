@@ -56,6 +56,9 @@ export default function TeamSection() {
                   src={member.avatar}
                   alt={member.name}
                   loading="lazy"
+                  onError={(e) => {
+                    e.currentTarget.src = '/team/photo-template.svg'
+                  }}
                   className="w-full h-full rounded-full object-cover border-4 border-primary-100"
                 />
                 <div className="absolute -bottom-1 -right-1 w-6 h-6 bg-primary-500 rounded-full flex items-center justify-center">
@@ -67,6 +70,7 @@ export default function TeamSection() {
                 {member.name}
               </h3>
               <p className="text-xs font-heading font-semibold text-primary-500 mb-3">{member.role}</p>
+              <p className="text-xs text-gray-500 mb-3">{member.studyProgram}</p>
               <p className="text-xs text-gray-500 italic leading-relaxed mb-4">{member.quote}</p>
 
               <div className="flex items-center justify-center gap-2">

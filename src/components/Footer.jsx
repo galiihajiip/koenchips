@@ -9,7 +9,6 @@ export default function Footer() {
     <footer className="bg-primary-900 text-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 lg:py-16">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
-          {/* Brand */}
           <div className="sm:col-span-2 lg:col-span-1">
             <div className="flex items-center gap-2 mb-4">
               <div className="w-9 h-9 bg-primary-500 rounded-full flex items-center justify-center">
@@ -52,7 +51,6 @@ export default function Footer() {
             </div>
           </div>
 
-          {/* Quick Links */}
           <div>
             <h3 className="font-heading font-semibold text-base mb-4 text-primary-300">Menu</h3>
             <ul className="space-y-2.5">
@@ -75,7 +73,6 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Products */}
           <div>
             <h3 className="font-heading font-semibold text-base mb-4 text-primary-300">Produk</h3>
             <ul className="space-y-2.5">
@@ -83,9 +80,10 @@ export default function Footer() {
                 'Chocolate Bliss 70g',
                 'Matcha Zen 70g',
                 'Vanilla Cloud 70g',
-                'Bundle Trio',
+                'Taro Twist 70g',
+                'Bundle Quartet',
                 'Family Pack 200g',
-                'Sampler Pack 3x35g',
+                'Sampler Pack 4x35g',
               ].map((p) => (
                 <li key={p}>
                   <Link
@@ -99,7 +97,6 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Contact */}
           <div>
             <h3 className="font-heading font-semibold text-base mb-4 text-primary-300">Kontak</h3>
             <ul className="space-y-3">
@@ -142,10 +139,10 @@ export default function Footer() {
 
         <div className="mt-10 pt-6 border-t border-primary-700 flex flex-col sm:flex-row items-center justify-between gap-3">
           <p className="text-xs text-gray-400">
-            © {year} KOENCHIPS. All rights reserved.
+            Copyright {year} KOENCHIPS. All rights reserved.
           </p>
           <p className="text-xs text-gray-400">
-            Keripik Sukun Rendah Lemak, Rasa Premium 🌿
+            Keripik Sukun Rendah Lemak, Rasa Premium.
           </p>
         </div>
       </div>

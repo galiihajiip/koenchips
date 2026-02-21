@@ -172,8 +172,8 @@ export default function HeroSection() {
                 transition={{ delay: 0.8, duration: 0.4 }}
                 className="absolute -right-4 bottom-1/4 bg-accent-500 rounded-2xl px-3 py-2 shadow-xl"
               >
-                <p className="font-heading font-bold text-neutral-900 text-xs">3 Rasa ✨</p>
-                <p className="text-neutral-900 text-xs opacity-75">Choco / Matcha / Vanilla</p>
+                <p className="font-heading font-bold text-neutral-900 text-xs">4 Rasa ✨</p>
+                <p className="text-neutral-900 text-xs opacity-75">Coklat / Matcha / Vanilla / Taro</p>
               </motion.div>
             </div>
           </motion.div>
@@ -189,3 +189,4 @@ export default function HeroSection() {
     </section>
   )
 }
+

@@ -5,7 +5,7 @@ import { products } from '../data/products'
 import ProductCard from '../components/ProductCard'
 import ProductModal from '../components/ProductModal'
 
-const FLAVORS = ['All', 'Chocolate', 'Matcha', 'Vanilla', 'Bundle']
+const FLAVORS = ['All', 'Chocolate', 'Matcha', 'Vanilla', 'Taro', 'Bundle']
 const SORT_OPTIONS = [
   { value: 'default', label: 'Default' },
   { value: 'price-asc', label: 'Termurah' },
